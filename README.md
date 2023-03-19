@@ -4,7 +4,7 @@ May 2021
 
 Welcome to GeoQuiz, the online geography game!
 
-![alt text](https://github.com/TBemz/GeoQuiz/blob/main/Images/geoquiz-1.PNG "Main screen")
+![alt text](https://github.com/TBemz/GeoQuiz/blob/main/Images/geoquiz-4.PNG "Main screen")
 
 ** Launching the Game **
 
