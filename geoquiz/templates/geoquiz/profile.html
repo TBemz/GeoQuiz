@@ -1,0 +1,33 @@
+{% extends "geoquiz/layout.html" %}
+{% load static %}
+
+    <!-- displays the player's stats. If the player hasn't played any games -->
+    <!-- yet, displays a welcome message instead -->
+    {% block body %}
+        <div class="container mt-4">
+            <h2>Your Stats</h2> 
+            
+            {% if score == 0 %}
+                <h2>Welcome to GeoQuiz!</h2>
+                <p>Once you play your first game, your stats will be listed here</p>
+                <a class="links" href="{% url 'play' %}">Let's Play!</a>
+            {% else %}
+                <span class="icon">
+                    <i class="bi bi-trophy"></i>
+                </span>
+                <p class="d-inline-block">Your top score is {{score}}</p>
+
+
+                <span class="icon">
+                    <i class="bi bi-calendar-date"></i>
+                </span>
+                <p class="d-inline-block">earned on {{date}}</p>
+
+                <p class="d-block no-icon">Your average score is {{avg}}</p>
+                    
+                <p class="d-block no-icon">You've played {{count}} games</p>
+
+                <a class="links" href="{% url 'play' %}">Play Again!</a>
+            {% endif %}
+        </div>
+    {% endblock %}

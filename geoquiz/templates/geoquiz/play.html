@@ -1,0 +1,10 @@
+{% extends "geoquiz/layout.html" %}
+{% load static %}
+
+    <!-- displays the game screen (mostly rendered through React in the script.js file)-->
+    {% block body %}
+        <div id="app" />
+        <input type="text" id="countryData" style="display: none" value="{{ activities|safe }}">
+        <script type="text/babel" src="{% static 'geoquiz/script.js' %}"></script>
+    {% endblock %}
+

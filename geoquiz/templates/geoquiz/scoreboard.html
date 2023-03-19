@@ -1,0 +1,14 @@
+{% extends "geoquiz/layout.html" %}
+{% load static %}
+
+    <!-- displays the top scores gained by any player -->
+    {% block body %}
+        <div class="container mt-4">
+            <h2>GeoQuiz High Scores:</h2>
+            <ol>
+                {% for score in scores %}
+                    <li>{{score.player}} earned {{score.value}} on {{score.date}}</li>
+                {% endfor %}
+            </ol>
+        </div>
+    {% endblock %}

@@ -1,0 +1,13 @@
+{% extends "geoquiz/layout.html" %}
+
+{% block body %}
+    <div class="container mt-4">
+        <h2> Welcome to GeoQuiz! </h2>
+
+        <p> GeoQuiz is an online geography game that will test your ability to quickly and accurately type country names for a randomly selected continent. You have 30 seconds to input as many countries as you can. Each country you type correctly gives you an extra 4 seconds, and completing a continent gives you additional bonuses. But there’s a catch!  Every time you enter a country correctly, there’s a chance the game will switch to another continent.</p>
+
+        <p> The game ends when you’ve answered all the countries in the world. Don’t sweat if you don’t remember some, you’re free to give up at any time. Any seconds remaining on the timer will automatically be added to your score.</p>
+
+        <a class="links" href="{% url 'play' %}">Let's Play!</a>
+    </div>
+{% endblock %}

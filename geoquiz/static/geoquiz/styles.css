@@ -1,0 +1,84 @@
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    height: 70px;
+    background-color: #68dad2;
+}
+
+.btn-geo {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px 32px;
+    margin-top: 20px;
+    color: white;
+    background-color: #faab43;
+}
+
+.icon {
+    margin: 10px;
+    display: inline;
+}
+
+.timer {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+#app {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.links {
+    color: #58c7c0;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.no-icon {
+    margin-left: 40px;
+}
+
+#continent {
+    font-size: 72px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#game_over {
+    font-size: 72px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #41006d;
+    margin-top: 50px;
+}
+
+.incorrect {
+    color: red;
+}
+
+.asia {
+    color: orange;
+}
+
+.africa {
+    color: green;
+}
+
+.europe {
+    color: darkblue;
+}
+
+.north_america {
+    color: crimson;
+}
+
+.south_america {
+    color: darkorchid;
+}
+
+.oceania {
+    color: cadetblue;
+}
