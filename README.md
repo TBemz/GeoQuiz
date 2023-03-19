@@ -12,7 +12,7 @@ GeoQuiz is a React/Django-based game that doesn't use any other extensions, pack
 To launch the game, follow these steps:
 
 1. Navigate to this directory
-2. In Python, run: manage.py runserver
+2. In your terminal, run (using Python): manage.py runserver
 3. Open a web browser (ideally Chrome) and go to http://127.0.0.1:8000/
 4. Enjoy!
 
